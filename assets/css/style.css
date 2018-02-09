@@ -10,6 +10,7 @@
 
 body{
     width: 100%;
+    font-family: 'Ubuntu';
 }
 
 section{
@@ -22,6 +23,11 @@ h2{
     color: #693056;
     margin-bottom: 1vw;
 }
+
+article{
+    text-align: justify;
+}
+
 /* HEADER */
 
 header{
@@ -82,15 +88,21 @@ header a:hover{
 }
 
 /* PRESENTATION */
-
+#presentation{
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+}
 #presentation img{
-   float:left;
     width: 40vw;
      border-radius: 2%;
 }
 
 #presentation article{
-    margin-left: 41vw; 
+    width: 48vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 /* FOOTER */
 footer {
