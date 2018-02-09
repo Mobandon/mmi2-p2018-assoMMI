@@ -182,7 +182,7 @@ header a:hover{
 footer {
 	display: flex;
 	width: 100%;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 }
@@ -198,7 +198,10 @@ figure > img{
 #details > img{
     border-radius: 10px;
 }
-footer>nav {display : inline-flex;}
+
+#redirections {padding-bottom:10px;
+padding-top:10px;}
+footer>nav {display : inline-flex; padding-bottom:10px; padding-top:10px;}
 footer>nav>a {text-decoration: none; color:grey;}
 footer>nav>a:hover {
 	color:grey;
