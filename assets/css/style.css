@@ -168,9 +168,13 @@ header a:hover{
 }
 #listeMembre figure{
     display: flex;
-    align-content: center;
+    align-items: center;
     margin-bottom: 5px;
     margin-left: 1vw;
+}
+
+#listeMembre figcaption{
+    padding-left: 1vw;
 }
 
 #details{
