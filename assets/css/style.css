@@ -162,7 +162,9 @@ header a:hover{
 
 #listeMembre{
     height: 50vh;
-    overflow: scroll;
+    width: 20vw;
+    overflow-y: scroll;
+    overflow-x: none;
 }
 #listeMembre figure{
     display: flex;
@@ -182,6 +184,13 @@ header a:hover{
     width: 50vw;
 }
 
+#details i{
+    margin-right: 1vw;
+}
+
+#details p{
+    padding-bottom: 1vw;
+}
 /* FOOTER */
 footer {
     background-color: #C49DB7;
@@ -190,7 +199,8 @@ footer {
 	justify-content: space-around;
 	align-items: center;
     padding: 1vw 1vw 1vw 1vw;
-    border-top: 0.3vw solid #8D4876; 
+    border-top: 0.3vw solid #8D4876;
+    box-shadow: 0 10px 0px 0 rgba(0, 0, 0, 0.8);
 }
 
 footer img{
