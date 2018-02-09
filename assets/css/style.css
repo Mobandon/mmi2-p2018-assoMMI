@@ -193,4 +193,9 @@ figure > img{
     border-radius: 10px;
 }
 footer>nav {display : inline-flex;}
-footer>nav>a {text-decoration: none; color:}
+footer>nav>a {text-decoration: none; color:grey;}
+footer>nav>a:hover {
+	color:grey;
+	opacity:0.6;
+	transition-duration: 0.3;
+}
