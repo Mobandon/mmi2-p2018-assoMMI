@@ -4,21 +4,24 @@
       "id":0,
       "nom": "Vincent Jouvert",
       "carac": "J'aime la prog",
-      "contact":"00 00 00 00 00",
+      "tel":"00 00 00 00 00",
+      "email": "vinvin@gmail.com",
       "poste":"ingénieur",
       "photo":"ex1.jpg"
     },{
       "id":1,
       "nom": "Maxime Fournier",
       "carac": "J'aime la com",
-      "contact":"00 00 00 00 00",
+      "tel":"00 00 00 00 00",
+      "email": "",
       "poste":"ingénieur",
       "photo":"ex2.jpg"
     },{
       "id":2,
       "nom": "Charly",
+      "tel":"",
       "carac": "J'aime l'humour random hahaha",
-      "contact":"00 00 00 00 00",
+      "email": "charly@gmail.com",
       "poste":"ingénieur",
       "photo":"ex3.jpg"
     }
