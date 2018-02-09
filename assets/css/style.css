@@ -12,6 +12,16 @@ body{
     width: 100%;
 }
 
+section{
+    padding: 2vw 5vw 0px 5vw;
+}
+
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    color: #693056;
+    margin-bottom: 1vw;
+}
 /* HEADER */
 
 header{
@@ -73,10 +83,15 @@ header a:hover{
 
 /* PRESENTATION */
 
-#presentation{
-    
+#presentation img{
+   float:left;
+    width: 40vw;
+     border-radius: 2%;
 }
 
+#presentation article{
+    margin-left: 41vw; 
+}
 /* FOOTER */
 footer {
 	display: flex;
