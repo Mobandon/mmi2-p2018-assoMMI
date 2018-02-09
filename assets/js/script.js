@@ -8,7 +8,7 @@ $(document).ready(function () {
       console.log(data);
 
       var items = data.membres.map(function (item) {
-        var outp = "<img src='img/" + item.photo + "' alt=''/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p>";
+        var outp = "<img src='img/" + item.photo + "' alt='' height='200' width='200'/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p>";
         if (item.tel != "") {outp += "<i class='fa fa-phone'></i><p>" + item.tel + "</p>"}
         if (item.email != "") {outp += "<i class='fa fa-envelope'><p>" + item.email + "</p>"}
         if (item.poste != "") {outp += "<i class='fa fa-user'><p>" + item.poste + "</p>"}
@@ -16,7 +16,7 @@ $(document).ready(function () {
       });
 
       var listmembre = data.membres.map(function (item) {
-        return "<li class='membre' id=" + item.id + ">" + item.nom + "</li>";
+        return "<figure class='membre' id=" + item.id + ">" + "<img src='img/" + item.photo + "' alt='' height='100' width='100'/><figcaption>" +  item.nom + "</figcaption></figure>";
       });
 
 
@@ -34,7 +34,7 @@ $(document).ready(function () {
       var i;
 
       for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function(yeah) {
+        coll[i].addEventListener("mouseover", function(yeah) {
           mo = yeah.target.id;
           console.log(mo);
 
