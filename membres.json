@@ -3,7 +3,7 @@
     {
       "id":0,
       "nom": "Vincent Jouvert",
-      "carac": "J'aime la prog",
+      "carac": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget justo ac mi mollis posuere.",
       "tel":"00 00 00 00 00",
       "email": "vinvin@gmail.com",
       "poste":"ingénieur",
@@ -11,7 +11,7 @@
     },{
       "id":1,
       "nom": "Maxime Fournier",
-      "carac": "J'aime la com",
+      "carac": "Fusce feugiat bibendum velit vel condimentum. Maecenas eu nibh ultricies, aliquam elit et, sollicitudin sapien. Suspendisse sollicitudin urna quis turpis condimentum ultrices.",
       "tel":"00 00 00 00 00",
       "email": "",
       "poste":"ingénieur",
@@ -20,7 +20,7 @@
       "id":2,
       "nom": "Charly",
       "tel":"",
-      "carac": "J'aime l'humour random hahaha",
+      "carac": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget justo ac mi mollis posuere.",
       "email": "charly@gmail.com",
       "poste":"ingénieur",
       "photo":"ex3.jpg"
