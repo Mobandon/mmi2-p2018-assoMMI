@@ -33,3 +33,7 @@ html {
 	 justify-content: center;
 	 align-items:center;
  }
+
+ figure > img{
+ 	border-radius: 25px;
+ }
