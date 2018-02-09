@@ -147,10 +147,23 @@ header a:hover{
     width: 70vw;
 }
 
+#listeMembre{
+    height: 50vh;
+    overflow: scroll;
+}
 #listeMembre figure{
     display: flex;
     align-content: center;
     margin-bottom: 2px;
+    margin-left: 1vw;
+}
+
+#details{
+    border-right: 3px solid #8A316B;
+}
+
+#details img{
+    float: left;
 }
 /* FOOTER */
 footer {
