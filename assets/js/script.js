@@ -8,7 +8,7 @@ $(document).ready(function () {
       console.log(data);
 
       var items = data.membres.map(function (item) {
-        return "<img src=" + item.photo + " alt=''/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p> tel: " + item.contact;
+        return "<img src='img/" + item.photo + "' alt=''/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p><p>tel: " + item.contact + item.poste +"</p>";
       });
 
       var listmembre = data.membres.map(function (item) {
