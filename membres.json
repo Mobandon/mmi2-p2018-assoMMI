@@ -24,6 +24,15 @@
       "email": "charly@gmail.com",
       "poste":"Animateur 3D",
       "photo":"ex3.png"
+    },
+    {
+      "id":3,
+      "nom": "Charly",
+      "tel":"",
+      "carac": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget justo ac mi mollis posuere.",
+      "email": "charly@gmail.com",
+      "poste":"Animateur 3D",
+      "photo":"ex3.png"
     }
   ],
   "message": "Strings have to be in double-quotes."
