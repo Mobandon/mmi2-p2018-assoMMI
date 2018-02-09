@@ -146,6 +146,12 @@ header a:hover{
 #membres{
     height: 50vh;
 }
+
+#membres > p{
+    margin-bottom: 1vw;
+    font-style:italic;
+}
+
 #membres article{
     display: flex;
 }
