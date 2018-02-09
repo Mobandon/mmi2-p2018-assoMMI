@@ -1,19 +1,25 @@
 {
   "membres": [
     {
-      "nom": "Vincent JSP",
+      "id":0,
+      "nom": "Vincent Jouvert",
       "carac": "J'aime la prog",
       "contact":"00 00 00 00 00",
+      "poste":"ingénieur",
       "photo":""
     },{
+      "id":1,
       "nom": "Maxime Fournier",
       "carac": "J'aime la com",
       "contact":"00 00 00 00 00",
+      "poste":"ingénieur",
       "photo":""
     },{
+      "id":2,
       "nom": "Charly",
       "carac": "J'aime l'humour random hahaha",
       "contact":"00 00 00 00 00",
+      "poste":"ingénieur",
       "photo":""
     }
   ],
