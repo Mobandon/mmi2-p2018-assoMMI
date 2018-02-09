@@ -6,7 +6,7 @@
       "carac": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget justo ac mi mollis posuere.",
       "tel":"00 00 00 00 00",
       "email": "vinvin@gmail.com",
-      "poste":"ingénieur",
+      "poste":"Game designer",
       "photo":"ex1.png"
     },{
       "id":1,
@@ -14,7 +14,7 @@
       "carac": "Fusce feugiat bibendum velit vel condimentum. Maecenas eu nibh ultricies, aliquam elit et, sollicitudin sapien. Suspendisse sollicitudin urna quis turpis condimentum ultrices.",
       "tel":"00 00 00 00 00",
       "email": "",
-      "poste":"ingénieur",
+      "poste":"Infographiste",
       "photo":"ex2.png"
     },{
       "id":2,
@@ -22,7 +22,7 @@
       "tel":"",
       "carac": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget justo ac mi mollis posuere.",
       "email": "charly@gmail.com",
-      "poste":"ingénieur",
+      "poste":"Animateur 3D",
       "photo":"ex3.png"
     }
   ],
