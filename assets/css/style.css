@@ -93,3 +93,10 @@ header a:hover{
     margin-left: 41vw; 
 }
 /* FOOTER */
+footer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
