@@ -104,6 +104,14 @@ header a:hover{
     flex-direction: column;
     justify-content: center;
 }
+
+/* FORMATION */
+
+#formation article{
+    background-color: #C49DB7;
+    padding: 2vw 2vw 2vw 2vw;
+    border-radius: 20%;
+}
 /* FOOTER */
 footer {
 	display: flex;
@@ -113,6 +121,10 @@ footer {
 	flex-direction: column;
 }
 
+footer img{
+    height:4vw;
+    width: auto;
+}
 figure > img{
     border-radius: 50px;
  }
