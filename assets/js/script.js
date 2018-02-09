@@ -9,9 +9,9 @@ $(document).ready(function () {
 
       var items = data.membres.map(function (item) {
         var outp = "<img src='img/" + item.photo + "' alt=''/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p>";
-        if (item.tel != "") {outp += "<p>" + item.tel + "</p>"}
-        if (item.email != "") {outp += "<p>" + item.email + "</p>"}
-        if (item.poste != "") {outp += "<p>" + item.poste + "</p>"}
+        if (item.tel != "") {outp += "<i class='fa fa-phone'></i><p>" + item.tel + "</p>"}
+        if (item.email != "") {outp += "<i class='fa fa-envelope'><p>" + item.email + "</p>"}
+        if (item.poste != "") {outp += "<i class='fa fa-user'><p>" + item.poste + "</p>"}
         return outp;
       });
 
