@@ -28,6 +28,18 @@ article{
     text-align: justify;
 }
 
+/* BUTTON */
+
+.button {
+    border: none;
+    color: white;
+    padding: 1vw 2vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
 /* HEADER */
 
 header{
@@ -110,7 +122,17 @@ header a:hover{
 #formation article{
     background-color: #C49DB7;
     padding: 2vw 2vw 2vw 2vw;
-    border-radius: 20%;
+    border-radius: 20px;
+    color: #FDF7F7;
+}
+
+#formation .button{
+    float: right;
+    background-color: #8A316B;
+}
+
+#formation .button:hover{
+     background-color: #A05084;
 }
 /* FOOTER */
 footer {
