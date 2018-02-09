@@ -94,7 +94,7 @@ header a{
 
 header a:hover{
     border-bottom: 3px solid #874973;
-    text-shadow: 2px 2px 4px #874973
+    text-shadow: 2px 2px 4px #874973;
 }
 
 #head{
@@ -198,3 +198,5 @@ figure > img{
 #details > img{
     border-radius: 10px;
 }
+footer>nav {display : inline-flex;}
+footer>nav>a {text-decoration: none; color:}

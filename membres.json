@@ -27,12 +27,12 @@
     },
     {
       "id":3,
-      "nom": "Charly",
+      "nom": "Marcel Pagnol",
       "tel":"",
-      "carac": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget justo ac mi mollis posuere.",
-      "email": "charly@gmail.com",
-      "poste":"Animateur 3D",
-      "photo":"ex3.png"
+      "carac": "J'aime le vélo.",
+      "email": "pagnol@gmail.com",
+      "poste":"Auteur",
+      "photo":"ex4.png"
     }
   ],
   "message": "Strings have to be in double-quotes."
