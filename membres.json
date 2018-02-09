@@ -1,0 +1,21 @@
+{
+  "membres": [
+    {
+      "nom": "Vincent JSP",
+      "carac": "J'aime la prog",
+      "contact":"00 00 00 00 00",
+      "photo":""
+    },{
+      "nom": "Maxime Fournier",
+      "carac": "J'aime la com",
+      "contact":"00 00 00 00 00",
+      "photo":""
+    },{
+      "nom": "Charly",
+      "carac": "J'aime l'humour random hahaha",
+      "contact":"00 00 00 00 00",
+      "photo":""
+    }
+  ],
+  "message": "Strings have to be in double-quotes."
+}
