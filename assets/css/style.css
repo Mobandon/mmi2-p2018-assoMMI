@@ -144,7 +144,7 @@ header a:hover{
 
 /* MEMBRE */
 #membres{
-    height: 50vh;
+    height: 65vh;
 }
 
 #membres > p{
@@ -167,24 +167,30 @@ header a:hover{
 #listeMembre figure{
     display: flex;
     align-content: center;
-    margin-bottom: 2px;
+    margin-bottom: 5px;
     margin-left: 1vw;
 }
 
 #details{
+    display: flex;
     border-right: 3px solid #8A316B;
+    justify-content: space-around;
+    align-items: center;
 }
 
-#details img{
-    float: left;
+#details div{
+    width: 50vw;
 }
+
 /* FOOTER */
 footer {
+    background-color: #C49DB7;
 	display: flex;
 	width: 100%;
-	justify-content: center;
+	justify-content: space-around;
 	align-items: center;
-	flex-direction: column;
+    padding: 1vw 1vw 1vw 1vw;
+    border-top: 0.3vw solid #8D4876; 
 }
 
 footer img{
