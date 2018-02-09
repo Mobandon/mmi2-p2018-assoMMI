@@ -16,7 +16,7 @@ $(document).ready(function () {
       });
 
       var listmembre = data.membres.map(function (item) {
-        return "<figure class='membre' id=" + item.id + ">" + "<img src='img/" + item.photo + "' alt='' height='100' width='100'/><figcaption>" +  item.nom + "</figcaption></figure>";
+        return "<figure>" + "<img src='img/" + item.photo + "' alt='' height='100' width='100' class='membre' id='"+ item.id +"'/><figcaption>" +  item.nom + "</figcaption></figure>";
       });
 
 
