@@ -7,7 +7,7 @@
       "tel":"00 00 00 00 00",
       "email": "vinvin@gmail.com",
       "poste":"ingénieur",
-      "photo":"ex1.jpg"
+      "photo":"ex1.png"
     },{
       "id":1,
       "nom": "Maxime Fournier",
@@ -15,7 +15,7 @@
       "tel":"00 00 00 00 00",
       "email": "",
       "poste":"ingénieur",
-      "photo":"ex2.jpg"
+      "photo":"ex2.png"
     },{
       "id":2,
       "nom": "Charly",
@@ -23,7 +23,7 @@
       "carac": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget justo ac mi mollis posuere.",
       "email": "charly@gmail.com",
       "poste":"ingénieur",
-      "photo":"ex3.jpg"
+      "photo":"ex3.png"
     }
   ],
   "message": "Strings have to be in double-quotes."
