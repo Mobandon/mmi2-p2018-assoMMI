@@ -1,14 +1,14 @@
 $(document).ready(function () {
 
   
-    var showData = $('#show-data');
+    var listeMembre = $('#listeMembre');
     var details = $('#details');
 
     $.getJSON('membres.json', function (data) {
       console.log(data);
 
       var items = data.membres.map(function (item) {
-        return item.nom + ': ' + item.carac + '.tel: ' + item.contact;
+        return "<img src=" + item.photo + " alt=''/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p> tel: " + item.contact;
       });
 
       var listmembre = data.membres.map(function (item) {
@@ -16,13 +16,13 @@ $(document).ready(function () {
       });
 
 
-      showData.empty();
+      listeMembre.empty();
 
       if (listmembre.length) {
 
         var content = listmembre.join('');
         var list = $('<ul />').html(content);
-        showData.append(list);
+        listeMembre.append(list);
       }
 
       var coll = document.getElementsByClassName("membre");
@@ -43,7 +43,7 @@ $(document).ready(function () {
 
     });
 
-    showData.text('Loading the JSON file.');
+    listeMembre.text('Loading the JSON file.');
 
 
 
