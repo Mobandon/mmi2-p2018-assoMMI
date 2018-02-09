@@ -26,3 +26,8 @@ html {
  #redirections {
 	width:30%;
  }
+ 
+ article {
+	 display: block;
+	 width:50%;
+ }
