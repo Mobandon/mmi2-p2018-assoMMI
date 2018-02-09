@@ -134,6 +134,24 @@ header a:hover{
 #formation .button:hover{
      background-color: #A05084;
 }
+
+/* MEMBRE */
+#membres{
+    height: 50vh;
+}
+#membres article{
+    display: flex;
+}
+
+#membres article > div:first-child{
+    width: 70vw;
+}
+
+#listeMembre figure{
+    display: flex;
+    align-content: center;
+    margin-bottom: 2px;
+}
 /* FOOTER */
 footer {
 	display: flex;
