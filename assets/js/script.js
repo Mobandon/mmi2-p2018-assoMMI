@@ -8,11 +8,11 @@ $(document).ready(function () {
       console.log(data);
 
       var items = data.membres.map(function (item) {
-        var outp = "<img src='img/" + item.photo + "' alt='' height='200' width='200'/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p>";
+        var outp = "<img src='img/" + item.photo + "' alt='' height='200' width='200'/><div><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p>";
         if (item.tel != "") {outp += "<i class='fa fa-phone'></i><p>" + item.tel + "</p>"}
         if (item.email != "") {outp += "<i class='fa fa-envelope'><a href='mailto:" + item.email +"'><p>" + item.email + "</p></a>"}
         if (item.poste != "") {outp += "<i class='fa fa-user'><p>" + item.poste + "</p>"}
-        return outp;
+        return outp + "</div>";
       });
 
       var listmembre = data.membres.map(function (item) {
