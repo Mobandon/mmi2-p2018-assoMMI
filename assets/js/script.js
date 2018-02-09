@@ -8,7 +8,11 @@ $(document).ready(function () {
       console.log(data);
 
       var items = data.membres.map(function (item) {
-        return "<img src='img/" + item.photo + "' alt=''/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p><p>tel: " + item.contact + item.poste +"</p>";
+        var outp = "<img src='img/" + item.photo + "' alt=''/><h3>"+ item.nom +"</h3><p>"+ item.carac + "</p>";
+        if (item.tel != "") {outp += "<i class='fa fa-phone'></i><p>" + item.tel + "</p>"}
+        if (item.email != "") {outp += "<i class='fa fa-envelope'><p>" + item.email + "</p>"}
+        if (item.poste != "") {outp += "<i class='fa fa-user'><p>" + item.poste + "</p>"}
+        return outp;
       });
 
       var listmembre = data.membres.map(function (item) {
